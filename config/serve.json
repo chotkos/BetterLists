@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://chotkos.sharepoint.com/Lists/Better%20Flights/Basic%20view.aspx",
+      "fieldCustomizers": {
+        "Title": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "Status": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "Special_x0020_needs": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "Passenger": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "Flight_x0020_details": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "Overall_x0020_Rating": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "betterFlights": {
+      "pageUrl": "https://chotkos.sharepoint.com/Lists/Better%20Flights/Basic%20view.aspx",
+      "fieldCustomizers": {
+        "Title": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.Title {
+  .cell {
+    background-color: "[theme:themePrimary, default:#e5e5e5]";
+    display: 'inline-block';
+  }
+
+  .badgeRed{
+    display:block;
+    color:white;
+    background-color:red;
+    padding:5px 5px 5px 5px;
+    margin:1px 1px 1px 1px;
+  }
+
+  .badgeDarkRed{
+    display:block;
+    color:white;
+    background-color:darkred;
+    padding:5px 5px 5px 5px;
+    margin:1px 1px 1px 1px;
+  }
+  .badgeBlack{
+    display:block;
+    color:white;
+    background-color:black;
+    padding:5px 5px 5px 5px;
+    margin:1px 1px 1px 1px;
+  }
+
+}
