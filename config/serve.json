@@ -41,6 +41,12 @@
           "properties": {
             "sampleText": "Value"
           }
+        },
+        "Statistics": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
         }
       }
     },

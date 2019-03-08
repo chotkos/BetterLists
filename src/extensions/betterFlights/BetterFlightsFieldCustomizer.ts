@@ -16,6 +16,7 @@ import Special from './components/Special/Special';
 import Passenger from './components/Passenger/Passenger';
 import Flight from './components/Flight/Flight';
 import Rate from './components/Rate/Rate';
+import Stats from './components/Stats/Stats';
 
 /**
  * If your field customizer uses the ClientSideComponentProperties JSON input,
@@ -83,6 +84,12 @@ export default class BetterFlightsFieldCustomizer
       case "Overall_x0020_Rating":{        
         const control: React.ReactElement<{}> =
         React.createElement(Rate, { text } as IBetterFlightsProps);
+        ReactDOM.render(control, event.domElement);
+        break;
+      }
+      case "Statistics":{        
+        const control: React.ReactElement<{}> =
+        React.createElement(Stats, { text } as IBetterFlightsProps);
         ReactDOM.render(control, event.domElement);
         break;
       }
