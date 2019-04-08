@@ -3,7 +3,8 @@ import { override } from '@microsoft/decorators';
 import * as React from 'react';
 
 //import styles from '../BetterFlights.module.scss'; 
-import styles from './Title.module.scss';
+//import styles from './Title.module.scss';
+import styles from './Status.module.scss';
 
 
 export interface IBetterFlightsProps {
