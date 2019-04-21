@@ -20,6 +20,7 @@ import Stats from './components/Stats/Stats';
 import PowerBI from './components/ExternalInfo/ExternalInfo';
 import ExternalInfo from './components/ExternalInfo/ExternalInfo';
 import CalendarDetails from './components/CalendarDetails/CalendarDetails';
+import BigPanel from './components/BigPanel/BigPanel';
 
 /**
  * If your field customizer uses the ClientSideComponentProperties JSON input,
@@ -111,6 +112,12 @@ export default class BetterFlightsFieldCustomizer
       case "ExternalInfo":{        
         const control: React.ReactElement<{}> =
         React.createElement(ExternalInfo, { text } as IBetterFlightsProps);
+        ReactDOM.render(control, event.domElement);
+        break;
+      }
+      case "Details":{        
+        const control: React.ReactElement<{}> =
+        React.createElement(BigPanel, { text } as IBetterFlightsProps);
         ReactDOM.render(control, event.domElement);
         break;
       }
