@@ -17,6 +17,9 @@ import Passenger from './components/Passenger/Passenger';
 import Flight from './components/Flight/Flight';
 import Rate from './components/Rate/Rate';
 import Stats from './components/Stats/Stats';
+import PowerBI from './components/ExternalInfo/ExternalInfo';
+import ExternalInfo from './components/ExternalInfo/ExternalInfo';
+import CalendarDetails from './components/CalendarDetails/CalendarDetails';
 
 /**
  * If your field customizer uses the ClientSideComponentProperties JSON input,
@@ -75,6 +78,18 @@ export default class BetterFlightsFieldCustomizer
         ReactDOM.render(control, event.domElement);
         break;
       }
+      case "Departure_x0020_day":{      
+        const control: React.ReactElement<{}> =
+        React.createElement(CalendarDetails, { text } as IBetterFlightsProps);
+        ReactDOM.render(control, event.domElement);
+        break;
+      }
+      case "Landing_x0020_day":{      
+        const control: React.ReactElement<{}> =
+        React.createElement(CalendarDetails, { text } as IBetterFlightsProps);
+        ReactDOM.render(control, event.domElement);
+        break;
+      }
       case "Flight_x0020_details":{        
         const control: React.ReactElement<{}> =
         React.createElement(Flight, { text } as IBetterFlightsProps);
@@ -90,6 +105,12 @@ export default class BetterFlightsFieldCustomizer
       case "Statistics":{        
         const control: React.ReactElement<{}> =
         React.createElement(Stats, { text } as IBetterFlightsProps);
+        ReactDOM.render(control, event.domElement);
+        break;
+      }
+      case "ExternalInfo":{        
+        const control: React.ReactElement<{}> =
+        React.createElement(ExternalInfo, { text } as IBetterFlightsProps);
         ReactDOM.render(control, event.domElement);
         break;
       }

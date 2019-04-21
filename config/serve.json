@@ -30,6 +30,18 @@
             "sampleText": "Value"
           }
         },
+        "Departure_x0020_day": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "Landing_x0020_day": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
         "Flight_x0020_details": {
           "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
           "properties": {
@@ -43,6 +55,12 @@
           }
         },
         "Statistics": {
+          "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
+          "properties": {
+            "sampleText": "Value"
+          }
+        },
+        "ExternalInfo": {
           "id": "4c2ec6f6-cc4d-4870-aa6a-64044058b648",
           "properties": {
             "sampleText": "Value"

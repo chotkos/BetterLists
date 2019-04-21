@@ -46,6 +46,7 @@ export default class Stats extends React.Component<IBetterFlightsProps, {}> {
       <div style={statsContainer}>
         {columns}
       </div>
+      
     ); 
   }
 }
