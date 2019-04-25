@@ -2,6 +2,7 @@
 ## better-lists
 
 This source code has been used in presentation "Make Lists Great Again - SharePoint Field Customizer" which was performed by Mateusz Chodkowski at Microsoft 365 User Group Poland Meetup #2. 
+
 You can easily find our group [on Facebook](https://www.facebook.com/groups/m365ugpl/) or by hashtag #M365UGPL.
 
 [Here you can find slides from this presentation.](https://1drv.ms/p/s!Amrn9fUpxmp2godnWoYLD3J5sBxJ-Q)
